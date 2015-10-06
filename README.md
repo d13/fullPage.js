@@ -686,7 +686,7 @@ Example:
 You can cancel a move by returning `false` on the `onSlideLeave` callback. Same as with `onLeave`.
 
 #Build tasks
-This gives the ability to compile the SCSS file to CSS as well compress and generate source-maps for the CSS and JS files.
+This gives the ability to compile SASS to CSS as well compress and generate source-maps for the CSS and JS files.
 
 ##Installing dependencies
 You must have `node` amd `npm` installed in order to run the compile and compress tasks.
@@ -704,8 +704,8 @@ npm install
 
 Terminal:
 ```
-// Only compile the SCSS
-gulp scss
+// Only compile the SASS
+gulp sass
 
 // Only compress the CSS
 gulp css
