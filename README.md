@@ -713,7 +713,7 @@ gulp css
 // Only compress the JS
 gulp js
 
-// Runs all three tasks
+// Compresses the CSS and JS files
 gulp
 ```
 
